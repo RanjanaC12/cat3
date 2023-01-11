@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Angular JS</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular.min.js"></script>
+        <script src="cat3.js"></script>
+    </head>
+    <body ng-app="app" ng-controller="myctrl">
+        <fieldset>
+            <legend >search</legend>
+            <label for="search">Search acoording to department</label>
+            <input type="text" value="department" data-ng-model="Search.emp_department"/>
+            <label for="search">Search according to salary</label>
+            <select type="text" data-ng-model="Search.emp_Salary">
+                <option>120000</option>
+                <option>130000</option>
+                <option>150000</option>
+                <option>300000</option>
+                <option>12000</option>
+            </select>
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>NAME</th>
+                    <th>DESIGNATION</th>
+                    <th>DEPARTMENT</th>
+                    <th>SALARY</th>
+                    <th>LOCATION</th>
+                </tr>
+                <tr ng-repeat="E in list|filter: Search">
+                  <th>{{E.emp_id}}</th>
+                  <th>{{E.emp_name}}</th>
+                  <th>{{E.emp_designation}}</th>
+                  <th>{{E.emp_department}}</th>
+                  <th>{{E.emp_Salary}}</th>
+                  <th>{{E.emp_location}}</th>
+                </tr>
+            </table>
+        </fieldset>
+    </body>
+</html>

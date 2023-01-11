@@ -1,0 +1,43 @@
+[
+    {
+        "emp_id":"1",
+        "emp_name":"Anjali",
+        "emp_designation":"assistant",
+        "emp_department":"A",
+        "emp_Salary":"120000",
+        "emp_location":"bangalore"
+    },
+    {
+        "emp_id":"2",
+        "emp_name":"Ranjana",
+        "emp_designation":"assistant",
+        "emp_department":"B",
+        "emp_Salary":"130000",
+        "emp_location":"mangalore"
+    },
+    {
+        "emp_id":"3",
+        "emp_name":"Anagha",
+        "emp_designation":"HOD",
+        "emp_department":"C",
+        "emp_Salary":"150000",
+        "emp_location":"mumbai"
+    },
+    {
+        "emp_id":"4",
+        "emp_name":"prerana",
+        "emp_designation":"HR",
+        "emp_department":"D",
+        "emp_Salary":"300000",
+        "emp_location":"pune"
+    },
+    {
+        "emp_id":"5",
+        "emp_name":"Lalitha",
+        "emp_designation":"CEO",
+        "emp_department":"E",
+        "emp_Salary":"12000",
+        "emp_location":"kerala"
+    }
+
+]
